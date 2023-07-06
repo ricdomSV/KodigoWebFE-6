@@ -6,22 +6,40 @@
     <title>Document</title>
 </head>
 <body>
-    <label>Seleccion Multiple</label><br>
+    <form>
+        <label >Nombre</label>
+        <input type="text" id="txtNombre" placeholder="Ingrese Nombre"><BR></BR>
+        <label> Apellido</label>
+        <input type="text" id="txtApellido" placeholder="Apellido"><BR></BR>
+    
+    <label>País</label>
+    <input type="text" id="txtPais" placeholder="Pais"> <Br></Br>
     <br>
+    <label>Seleccion Multiple:</label><br>
     <input type="checkbox" id="chOpcion1"> Opcion1
     <input type="checkbox" id="chOpcion2"> Opcion2
-    <input type="checkbox" id="chOpcion3"> chOpcion3
+    <input type="checkbox" id="chOpcion3"> Opcion3
     <br><br>
-    <label for="Seleccione una Opcion radio"></label>
+    <label > Seleccione una opcion radio</label>
     <input type="radio" id="rbA" name= "opciones"> Opcion A <A></A>
     <input type="radio" id="rbB" name= "opciones"> Opcion B <A></A>
     <input type="radio" id="rbC" name= "opciones"> Opcion C <A></A>
     <br><br>
-    <label for="Seleccione una Opcion radio"></label>
+    <label> Seleccione una  opcion radio</label>
     <input type="radio" id= "rbAAA" name= "opciones 2"> Opcion AAAA
     <input type="radio" id= "rbBBB" name= "opciones 2"> Opcion BBB
     <input type="radio" id= "rbCCC" name= "opciones 2"> Opcion CCC
-
-
+    <br>
+    <br>
+    <label> Departamentos</label>
+    <select  id="cbDepartamentos">
+        <option value="0">San Salvador</option>
+        <option value="1">San Miguel</option>
+        <option value="2">Santa Ana</option>
+    </select>
+    <br>
+    <br>
+    <input type="button" value="Cancelar">
+    </form>
 </body>
 </html>
