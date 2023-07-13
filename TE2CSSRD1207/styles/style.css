@@ -1,6 +1,6 @@
 *{box-sizing:border-box;}
 form{
-	width: 320px;px;
+	width: 320px;
 	padding:16px;
 	border-radius:10px;
 	margin:auto;
@@ -28,7 +28,7 @@ form input[type="number"]
 	display:inline-block;
 }
 
-form input[type="submit"]
+form input[type="submit"],form input[type="button"]
 
 {
 	width:100%;

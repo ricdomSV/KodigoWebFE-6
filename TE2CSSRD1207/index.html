@@ -6,49 +6,67 @@
     <title>Document</title>
     <style> 
     
+    table, td, th {
+        border: 1px solid black;
+         
+    }
+    h1 {text-align: center;}
+    
+
+
     </style>
 </head>
 <header>
     <h1>Mantenimiento de productos</h1>
 </header>
 <body>
-    <table border="1">
-        
+    <table align="center"; cellspacing="0"; cellpadding="4">
         <thead>
-            <tr>
-                <th><input type="button" value="Nuevo"></th>
+            <tr> 
+                <th><button><img src="img/add.png" width="16px"> Nuevo</button>
+                </th>
                 <th>Código</th>
                 <th>Descripción</th>
                 <th>Código de barra</th>
                 <th>Precio Unitario</th>
                 <th>Stock</th>
+                <th>Proveedor</th>
                 <th>Estado</th>
                 <th>Categoria</th>
             </tr>
         </thead>
+        
         <tbody>
             <tr>
+                <td>
+                    <button><img src="img/editar.png" width="16px"> Editar</button>       
+                    <button><img src="img/borrar.png" width="16px">Eliminar</button>
+                </td>
                 <td>1</td>
-                <td>Ricardo</td>
-                <td>Dominguez</td>
-                <td>El Salvador</td>
+                <td>Martillo</td>
+                <td>101253151489</td>
+                <td>2.50</td>
+                <td>10</td>
+                <td>Proveedor1</td>
+                <td>Si</td>
+                <td>Herramientas</td>
             </tr>
             <tr>
-                <td>1</td>
-                <td>Roxana</td>
-                <td>Rivera</td>
-                <td>El Salvador</td>
+                <td>
+                <button><img src="img/editar.png" width="16px"> Editar</button>       
+                <button><img src="img/borrar.png" width="16px">Eliminar</button>
+            </td>
+                <td>2</td>
+                <td>Kit de Herramientas</td>
+                <td>258981235849</td>
+                <td>10.50</td>
+                <td>20</td>
+                <td>Proveedor2</td>
+                <td>Si</td>
+                <td>Herramientas</td>
             </tr>
             
         </tbody>
-        <tfoot>
-            <tr>
-                <th>No.</th>
-                <th>Nombre</th>
-                <th>Apellido</th>
-                <th>Pais</th>
-            </tr>
-        </tfoot>
     </table>
 </body>
 
