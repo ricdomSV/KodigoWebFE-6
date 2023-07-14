@@ -1,0 +1,13 @@
+body {
+    background-color:gray;
+}
+section {
+    background-color: cadetblue;
+}
+h1 {
+    color: rgb(165, 144, 42);
+    background-color: blanchedalmond;
+}
+#RGB2 {
+    color: rgb(210, 30, 72); <!- ID de prueba 
+}
